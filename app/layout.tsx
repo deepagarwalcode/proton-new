@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter_Tight } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter_Tight({
   variable: "--font-inter",
@@ -25,6 +26,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
+      <Analytics />
       <body className={`${inter.variable} antialiased`}>{children}</body>
     </html>
   );
