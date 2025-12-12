@@ -27,3 +27,4 @@ const FromUp = ({ children, delay = 0, className }: Props) => {
 export default FromUp;
 
 
+
