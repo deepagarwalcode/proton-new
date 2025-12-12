@@ -28,7 +28,7 @@ const WorkSection = () => {
             title: "GrowthQuest",
             bgColor: "#1A4C95",
             subtitle: "$5M+ in client revenue",
-            image: "/hero/gq.png",
+            image: "/full/gq-full.png",
             authorAvatar: "/dps/ammeil.png",
             authorName: "Ammeil Ali",
             testimonialText: "It was an amazing experience working with Deep, the attention that he gives was unparalleled.",
@@ -41,7 +41,7 @@ const WorkSection = () => {
             title: "Leveraged Outbound",
             bgColor: "#B23992",
             subtitle: "$1M+ in client revenue",
-            image: "/hero/lo.png",
+            image: "/full/lo-full.png",
             authorAvatar: "/dps/papa.png",
             authorName: "Papa A. Sefa",
             testimonialText: "Deep himself I think probably doesn't sleep, he is extremely extremely responsive.",
@@ -53,7 +53,7 @@ const WorkSection = () => {
             title: "Grow Surely",
             bgColor: "#9C83FE",
             subtitle: "$3M+ in client revenue",
-            image: "/hero/gs.png",
+            image: "/full/gs-full.png",
             authorAvatar: "/dps/adam.png",
             testimonialText: "Communication was super easy and the website looks exactly as we planned it.",
             authorName: "Adam Rahmouni",
@@ -65,13 +65,13 @@ const WorkSection = () => {
             title: "TAM To Target",
             bgColor: "#1F2129",
             subtitle: "$3.1M+ sales pipeline generated",
-            image: "/hero/tam.png",
+            image: "/full/tam-full.png",
             authorAvatar: "/dps/bobby.png",
             authorName: "Bobby Offterdinger",
             testimonialText: "Deep and his team at Proton have done a phenomenal job working on our website.",
             authorTitle: "Founder, TAM To Target",
             testimonialUrl: "https://fast.wistia.net/embed/iframe/g267oaf2d5",
-            ctaLink: "https://www.tamtotarget.com"
+            ctaLink: "https://www.rhosales.com"
           },
     ]
   return (

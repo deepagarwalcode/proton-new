@@ -40,7 +40,7 @@ const WorkCard: React.FC<WorkCardProps> = ({
           <div
             style={{ backgroundColor: `${bgColor}` }}
             className={cn(
-              "h-full rounded-lg border border-white/10 p-4 md:p-8 shadow-inner shadow-black/40"
+              "h-full rounded-lg shadow-inner shadow-black/40"
             )}
           >
             <img
@@ -90,14 +90,14 @@ const WorkCard: React.FC<WorkCardProps> = ({
 
           {/* Testimonial Quote */}
           <div className="mt-4 flex items-center gap-4">
-            <div className="flex h-12 w-12 items-center justify-center rounded-full border border-white/15 bg-white/10 p-2 shadow-inner shadow-black/40">
+            <div className="flex h-8 w-8 md:h-12 md:w-12 items-center justify-center rounded-full border border-white/15 bg-white/10 p-2 shadow-inner shadow-black/40">
               <Quote className="text-gray-100 w-6 h-6"  fill="white" stroke="transparent" />
             </div>
-            <p className="text-white text-sm">&quot;{testimonialText}&quot;</p>
+            <p className="text-white text-xs md:text-sm">&quot;{testimonialText}&quot;</p>
           </div>
 
           {/* Author Profile */}
-          <div className="flex mt-4 md:mt-auto items-center gap-3">
+          <div className="flex mt-8 md:mt-auto items-center gap-3">
             <img
               src={authorAvatar}
               alt={authorName}

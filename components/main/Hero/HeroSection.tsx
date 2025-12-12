@@ -23,6 +23,11 @@ const HeroSection = () => {
       image: "/hero/gs.png",
     },
     {
+      bgColor: "#7E08F6",
+      description: "Decade old China sourcing firm",
+      image: "/hero/sourcery.jpeg",
+    },
+    {
       bgColor: "#145395",
       description: "Leading consultancy firm in the city",
       image: "/hero/jpnr.png",
